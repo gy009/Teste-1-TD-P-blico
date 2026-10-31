@@ -1,0 +1,11 @@
+# Receptor dos registros de partida do Pixel Defenders (versões de teste e, no lançamento, o jogo da loja).
+# Publicar:  npx wrangler deploy   (rodar dentro desta pasta)
+name = "pixel-defenders-dados"
+main = "src/index.js"
+compatibility_date = "2025-09-01"
+workers_dev = true
+
+[[d1_databases]]
+binding = "DB"
+database_name = "pixel-defenders-partidas"
+database_id = "b45456d5-d63c-46da-ab9f-b2d80dded1cb"   # já criado na sua conta Cloudflare (tabelas prontas)
